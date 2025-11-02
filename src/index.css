@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%;  color:#fff; }
+
+/* Fullscreen background example; put a file at public/bg.jpg */
+body {
+  background:  url("IMG_9526-modified.JPG") no-repeat center center / cover;
+}
